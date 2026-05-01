@@ -1,0 +1,90 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^s-(.*)": "@/sheep/components/s-$1/s-$1.vue",
+      "^su-(.*)": "@/sheep/ui/su-$1/su-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/chat/chat",
+      "style": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "AI聊天"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/wxlogo",
+      "style": {
+        "navigationBarBackgroundColor": "#AD7561",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/webview/webview",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/user/yh",
+      "style": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "用户手册"
+      }
+    },
+    {
+      "path": "pages/user/ys",
+      "style": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "隐私政策"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTitleText": "AI"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#AD7561",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "聊天",
+        "iconPath": "static/footericon5.jpg",
+        "selectedIconPath": "static/wxx.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/footericon7.jpg",
+        "selectedIconPath": "static/footericon8.jpg"
+      }
+    ]
+  }
+}

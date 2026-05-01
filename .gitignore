@@ -1,0 +1,15 @@
+unpackage/*
+node_modules/*
+.idea/*
+deploy.sh
+.hbuilderx/
+.vscode/
+**/.DS_Store
+*.keystore
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
